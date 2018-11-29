@@ -1,0 +1,155 @@
+.logo-container {
+  text-align: center;
+  margin: 8px;
+}
+.logo-container img {
+  border-radius: 50%;
+  width: 75%;
+}
+
+.menu-container {
+  text-align: center;
+  height: 104px;
+  line-height: 104px;
+}
+.menu-container a {
+  margin: 8px;
+  text-decoration: none;
+}
+
+.mobile-menu-container {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-container {
+    display: none;
+  }
+
+  .mobile-menu-container {
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    right: 45px;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}
+.articles-container {
+  text-align: center;
+}
+
+.information-container {
+  margin-top: 34px;
+  margin-bottom: 34px;
+  display: inline-block;
+}
+.information-container img {
+  float: left;
+  margin-right: 8px;
+  max-width: 150px;
+  max-height: 186px;
+}
+.information-container p {
+  text-align: left;
+}
+
+.user-authentication {
+  text-align: center;
+  background-color: #1DA1F2;
+  padding: 16px;
+  color: white;
+  border-radius: 3%;
+}
+.user-authentication input {
+  display: block;
+  margin: auto;
+  padding: 6px 36px;
+}
+.user-authentication input:last-child {
+  margin-top: 16px;
+  padding: 12px 36px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.creationUserWarning {
+  color: red;
+}
+
+.account-informations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.shop-products-container {
+  text-align: center;
+}
+
+.shop-product-container {
+  display: inline-block;
+  max-width: 25%;
+  margin: 24px;
+}
+.shop-product-container img {
+  max-width: 50%;
+}
+.shop-product-container h1 {
+  font-size: 24px;
+}
+
+.category-product-container {
+  text-align: center;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #1DA1F2;
+}
+.category-product-container input {
+  margin: 8px;
+  cursor: pointer;
+}
+.category-product-container input[type=submit] {
+  background: white;
+  border: none;
+  margin: 0 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .shop-product-container {
+    display: block;
+    max-width: 100%;
+  }
+}
+.backoffice-table {
+  border: 2px solid black;
+  margin: 24px;
+}
+.backoffice-table th {
+  padding: 8px;
+}
+.backoffice-table td {
+  padding: 8px;
+}
+.backoffice-table input[type=submit] {
+  cursor: pointer;
+}
+
+.footer-container {
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 32px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,40 @@
+// IMPORT
+
+// VARIABLES
+
+// MIXINS
+
+// STYLE
+
+.logo-container
+  text-align: center
+  margin: 8px
+
+  img
+    +makeCircle(50%, 75%)
+
+.menu-container
+  text-align: center
+  height: 104px
+  line-height: 104px
+
+  a
+    margin: 8px
+    text-decoration: none
+
+.mobile-menu-container
+  display: none
+  cursor: pointer
+
+@media screen and (max-width: 768px)
+  .menu-container
+    display: none
+
+  .mobile-menu-container
+    display: inline-block
+    position: absolute
+    top: 25px
+    right: 45px
+
+  .mobile-menu
+    display: none
