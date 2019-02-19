@@ -1,6 +1,7 @@
 # elonmusk-php-bootstrap-sass
 
 Index сайта находится в src/app/index.php
+
 Index is in src/app/index.php
 
 Training project with php, bootstrap and sass. The goal of this training project was to create a website about Elon Musk, with a gift shop, the possibility to create and user with a profile and to store your cart in the db.
