@@ -1,5 +1,7 @@
 # elonmusk-php-bootstrap-sass
 
+!ВНИМАНИЕ! Это не пример респонсив верстки. Это тренировочный проект о взаимодействии front/back/db
+
 Index сайта находится в src/app/index.php
 
 Index is in src/app/index.php
